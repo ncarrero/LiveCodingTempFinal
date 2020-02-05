@@ -34,7 +34,7 @@ namespace LiveCodingTempFinal
             string temperature = Console.ReadLine();
 
             //TODO: figure out how to turn string to int
-            int temp = Parse(temperature);
+            int temp = Int32.Parse(temperature);
 
             //weather: Clear, Cloudy, Raining, Full Moon
             if (weather == "Clear")
